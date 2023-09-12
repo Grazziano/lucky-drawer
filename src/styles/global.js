@@ -6,6 +6,8 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #310A31;
   }
 
   html, body, #root {
