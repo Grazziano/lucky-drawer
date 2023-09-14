@@ -43,7 +43,7 @@ export const Form = styled.form`
     border: 0;
     border-radius: 4px;
     font-size: 15px;
-    background: #310A31;
+    background: #310a31;
     /* background: #88B7B5; */
     color: #fff;
   }
@@ -51,4 +51,19 @@ export const Form = styled.form`
   button:hover {
     opacity: 0.8;
   }
+`;
+
+export const DivNumbers = styled.div`
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const Number = styled.div`
+  background-color: #88b7b5;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
 `;
